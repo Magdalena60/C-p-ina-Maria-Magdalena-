@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghidul Tău pentru Unghii Perfecte</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        h1, h2 {
+            font-family: 'Playfair Display', serif;
+        }
+        .step-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .step-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #fff5f5 0%, #fef2f2 100%);
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800">
+
+    <!-- Hero Section -->
+    <header class="relative h-[60vh] flex items-center justify-center overflow-hidden bg-rose-100">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=1920" 
+                 alt="Nail Art Setup" 
+                 class="w-full h-full object-cover opacity-40">
+        </div>
+        <div class="relative z-10 text-center px-4">
+            <h1 class="text-5xl md:text-7xl mb-4 text-rose-900">Drumul spre unghii perfecte</h1>
+            <p class="text-lg md:text-xl text-rose-800 max-w-2xl mx-auto font-light">
+                Tot ce trebuie să știi de la momentul în care te decizi, până la ieșirea din salon cu o manichiură impecabilă.
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-16">
+        
+        <!-- Steps Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            
+            <!-- Pasul 1 -->
+            <div class="step-card bg-white p-8 rounded-2xl border border-rose-100">
+                <div class="text-rose-400 font-bold text-4xl mb-4">01</div>
+                <h2 class="text-2xl mb-4 text-stone-900">Alegerea Stilului și Tehnicii</h2>
+                <p class="text-stone-600 leading-relaxed mb-6">
+                    Înainte de a suna, trebuie să știi ce îți dorești. Opțiunile principale includ:
+                </p>
+                <ul class="space-y-3 mb-6">
+                    <li class="flex items-center gap-2"><span class="w-2 h-2 bg-rose-300 rounded-full"></span> <strong>Semipermanentă:</strong> Ideală pentru aspect natural.</li>
+                    <li class="flex items-center gap-2"><span class="w-2 h-2 bg-rose-300 rounded-full"></span> <strong>Gel/Acrygel:</strong> Pentru lungime și rezistență maximă.</li>
+                    <li class="flex items-center gap-2"><span class="w-2 h-2 bg-rose-300 rounded-full"></span> <strong>Nail Art:</strong> Design-uri pictate, pietre sau ștampile.</li>
+                </ul>
+                <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&q=80&w=600" 
+                     alt="Inspiratie Unghii" 
+                     class="rounded-xl w-full h-48 object-cover">
+            </div>
+
+            <!-- Pasul 2 -->
+            <div class="step-card bg-white p-8 rounded-2xl border border-rose-100">
+                <div class="text-rose-400 font-bold text-4xl mb-4">02</div>
+                <h2 class="text-2xl mb-4 text-stone-900">Găsirea Tehnicianului</h2>
+                <p class="text-stone-600 leading-relaxed mb-4">
+                    Verifică portofoliul pe Instagram sau Facebook. Fii atentă la:
+                </p>
+                <div class="grid grid-cols-2 gap-4 text-sm">
+                    <div class="p-3 bg-stone-50 rounded-lg border border-stone-100 italic">Curățenia cuticulelor în poze</div>
+                    <div class="p-3 bg-stone-50 rounded-lg border border-stone-100 italic">Uniformitatea blicului (reflexia luminii)</div>
+                    <div class="p-3 bg-stone-50 rounded-lg border border-stone-100 italic">Recenziile clienților</div>
+                    <div class="p-3 bg-stone-50 rounded-lg border border-stone-100 italic">Metodele de sterilizare declarate</div>
+                </div>
+            </div>
+
+            <!-- Pasul 3 -->
+            <div class="step-card bg-white p-8 rounded-2xl border border-rose-100">
+                <div class="text-rose-400 font-bold text-4xl mb-4">03</div>
+                <h2 class="text-2xl mb-4 text-stone-900">Efectuarea Programării</h2>
+                <p class="text-stone-600 leading-relaxed mb-4">
+                    Când contactezi salonul, oferă detalii complete pentru a rezerva timpul corect:
+                </p>
+                <div class="bg-rose-50 p-4 rounded-lg border-l-4 border-rose-300 mb-4">
+                    <p class="text-sm font-semibold text-rose-900">Checklist pentru mesaj:</p>
+                    <ul class="text-sm text-rose-800 list-disc ml-4 mt-2">
+                        <li>Ai material pe unghii care trebuie îndepărtat?</li>
+                        <li>Vrei o construcție nouă sau doar întreținere?</li>
+                        <li>Vrei un model complex (pictură, french)?</li>
+                    </ul>
+                </div>
+                <p class="text-xs text-stone-400 uppercase tracking-widest italic">Sfat: Programează-te cu cel puțin 1-2 săptămâni înainte.</p>
+            </div>
+
+            <!-- Pasul 4 -->
+            <div class="step-card bg-white p-8 rounded-2xl border border-rose-100">
+                <div class="text-rose-400 font-bold text-4xl mb-4">04</div>
+                <h2 class="text-2xl mb-4 text-stone-900">Eticheta la Salon</h2>
+                <div class="space-y-4">
+                    <div class="flex gap-4 items-start">
+                        <div class="bg-green-100 p-2 rounded">✅</div>
+                        <p class="text-sm text-stone-600"><strong>Punctualitate:</strong> Întârzierea mai mult de 15 minute poate anula programarea.</p>
+                    </div>
+                    <div class="flex gap-4 items-start">
+                        <div class="bg-red-100 p-2 rounded">❌</div>
+                        <p class="text-sm text-stone-600"><strong>Anulări:</strong> Anunță cu cel puțin 24 de ore înainte dacă nu mai poți ajunge.</p>
+                    </div>
+                    <div class="flex gap-4 items-start">
+                        <div class="bg-blue-100 p-2 rounded">💅</div>
+                        <p class="text-sm text-stone-600"><strong>Mâinile:</strong> Nu încerca să îți tai singură cuticulele înainte; tehnicianul se ocupă de tot.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section: Ce se intampla acolo -->
+        <section class="mt-20">
+            <h2 class="text-3xl text-center mb-12">Experiența în Scaunul de Manichiură</h2>
+            <div class="bg-stone-900 text-white p-8 md:p-12 rounded-3xl overflow-hidden relative">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl mb-6 text-rose-300">Procesul Standard</h3>
+                        <ol class="space-y-6">
+                            <li class="flex gap-4">
+                                <span class="bg-white/10 w-8 h-8 rounded-full flex items-center justify-center shrink-0">1</span>
+                                <div>
+                                    <p class="font-semibold">Dezinfectarea</p>
+                                    <p class="text-stone-400 text-sm">Mâinile tale și ale tehnicianului sunt igienizate riguros.</p>
+                                </div>
+                            </li>
+                            <li class="flex gap-4">
+                                <span class="bg-white/10 w-8 h-8 rounded-full flex items-center justify-center shrink-0">2</span>
+                                <div>
+                                    <p class="font-semibold">Curățarea Hard-Hardware</p>
+                                    <p class="text-stone-400 text-sm">Folosirea frezei pentru îndepărtarea materialului vechi și curățarea cuticulei.</p>
+                                </div>
+                            </li>
+                            <li class="flex gap-4">
+                                <span class="bg-white/10 w-8 h-8 rounded-full flex items-center justify-center shrink-0">3</span>
+                                <div>
+                                    <p class="font-semibold">Modelarea și Aplicarea</p>
+                                    <p class="text-stone-400 text-sm">Arhitectura unghiei este creată pentru a rezista loviturilor.</p>
+                                </div>
+                            </li>
+                            <li class="flex gap-4">
+                                <span class="bg-white/10 w-8 h-8 rounded-full flex items-center justify-center shrink-0">4</span>
+                                <div>
+                                    <p class="font-semibold">Finisarea</p>
+                                    <p class="text-stone-400 text-sm">Aplicarea uleiului de cuticule și hidratarea mâinilor.</p>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="hidden md:block">
+                        <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&q=80&w=800" 
+                             alt="Professional Manicure" 
+                             class="rounded-2xl shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA / Final Tips -->
+        <section class="mt-20 text-center">
+            <h2 class="text-3xl mb-8">După Programare</h2>
+            <div class="flex flex-wrap justify-center gap-6">
+                <div class="bg-white p-6 rounded-xl border border-stone-200 max-w-xs">
+                    <h4 class="font-bold mb-2">Fără apă fierbinte</h4>
+                    <p class="text-sm text-stone-500">Evită băile lungi sau sauna în primele 24 de ore.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-stone-200 max-w-xs">
+                    <h4 class="font-bold mb-2">Ulei de cuticule</h4>
+                    <p class="text-sm text-stone-500">Folosește-l zilnic pentru a menține aspectul proaspăt.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-stone-200 max-w-xs">
+                    <h4 class="font-bold mb-2">Nu folosi unghiile ca unelte</h4>
+                    <p class="text-sm text-stone-500">Nu desfăce doze de suc și nu curăța etichete cu ele.</p>
+                </div>
+            </div>
+            
+            <button class="mt-12 bg-rose-500 hover:bg-rose-600 text-white px-10 py-4 rounded-full font-bold transition-colors shadow-lg"
+                    onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+                Ești gata? Alege-ți modelul!
+            </button>
+        </section>
+
+    </main>
+
+    <footer class="bg-stone-100 py-12 mt-20 border-t border-stone-200">
+        <div class="max-w-6xl mx-auto px-4 text-center text-stone-400 text-sm">
+            <p>&copy; 2024 Ghidul Frumuseții. Realizat pentru iubitorii de Nail Art.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
